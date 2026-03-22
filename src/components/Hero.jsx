@@ -23,7 +23,7 @@ const Hero = () => {
         </h1>
 
         <p className="mt-4 text-lg md:text-xl font-medium text-gray-300 font-Logo-font">
-           Gen AI Engineer / AI Fullstack Developer (Fresher)
+           Engineering Graduate -  Fresher
         </p>
 
         {/* Social Media Links */}

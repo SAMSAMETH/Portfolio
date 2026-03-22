@@ -6,22 +6,13 @@ import ChatbotImg from "../assets/AIchatbot.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "Disaster Management App",
+      title: "Event Management Software",
       description:
-        "A React + Django web app delivering real-time disaster alerts using web scraping and data aggregation.",
-      tech: ["React.js", "Django", "MySQL", "Tailwind"],
-      image: DisasterImg,
-      link: "#",
-      github: "https://github.com/yourusername/disaster-app",
-    },
-    {
-      title: "Artisans E-Commerce Platform",
-      description:
-        "A platform to support women artisans with product management, authentication, and secure payments.",
-      tech: ["React.js", "Tailwind", "Node.js", "MongoDB"],
+        " A Event Management to maintain events, registration, booking and payments",
+      tech: ["React.js", "Tailwind CSS", "Django", "Firebase - authentication"],
       image: EcommerceImg,
       link: "#",
-      github: "https://github.com/yourusername/ecommerce-platform",
+      github: "https://github.com/SAMSAMETH/EventManagement",
     },
     {
       title: "Medical AI Chat Assistant using RAG Agentic",

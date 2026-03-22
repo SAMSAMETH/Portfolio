@@ -5,7 +5,6 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Internship from './components/Internship';
-import Certificate from './components/Certificate';
 import Workshop from './components/Workshop';
 import Contact from './components/Contact';
 import Educational from './components/Educational';
@@ -21,7 +20,6 @@ const App = () => {
       <Skills/>
       <Projects/>
       <Internship/>
-      <Certificate/>
       <Workshop/>
       <Contact/>
       <Footer/>

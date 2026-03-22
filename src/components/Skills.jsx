@@ -11,11 +11,6 @@ const Skills = () => {
     { name: "Python", icon: <FaPython size={40} /> },
     { name: "Django", icon: <SiDjango size={40} /> },
     { name: "MySQL", icon: <FaDatabase size={40} /> },
-    { name: "LangChain", icon: <AiOutlineApi size={40} /> },
-    { name: "n8n - AI Automation", icon: <FaCogs size={40} /> },
-    { name: "Gen AI - Agentic AI", icon: <MdOutlinePsychology size={40} /> },
-    { name: "RAG Agent", icon: <MdOutlinePsychology size={40} /> },
-    { name: "Multi Agents", icon: <MdOutlinePsychology size={40} /> },
   ];
 
   return (

@@ -1,5 +1,13 @@
 const Internship = () => {
   const internships = [
+
+    {
+  role: "System Analyst Apprentice",
+  company: "Lumina Datamatics",
+
+  description:
+    "Worked as Data Management Analyst supporting US construction and real estate projects. Performed data validation, data cleaning, and quality checks to ensure accurate project data. Maintained project details in CRM systems and used Excel, SQL concepts, Gen AI, and automation tools to deliver reliable and structured data.",
+    },
     {
       role: "Backend Intern (Python Django)",
       company: "Suven Consultant and Technology",
@@ -25,7 +33,7 @@ const Internship = () => {
       <div className="max-w-6xl mx-auto text-center">
         {/* Section Heading */}
         <h1 className="text-3xl md:text-5xl font-hero-font mb-12 bg-gradient-to-r from-violet-500 via-pink-500 to-orange-500 bg-clip-text text-transparent bg-[length:200%_200%] animate-gradient-x">
-          Internship Experience
+          Experience
         </h1>
 
         {/* Internship Cards */}
@@ -52,16 +60,19 @@ const Internship = () => {
               </p>
 
               {/* View Certificate Button */}
-              <div className="mt-6">
-                <a
-                  href={intern.certificate}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 bg-gradient-to-r from-violet-500 to-pink-500 text-white rounded-lg shadow-md hover:shadow-violet-500/40 transition transform hover:scale-105"
-                >
-                  View Certificate
-                </a>
-              </div>
+            {/* View Certificate Button only if available */}
+{intern.certificate && (
+  <div className="mt-6">
+    <a
+      href={intern.certificate}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block px-4 py-2 bg-gradient-to-r from-violet-500 to-pink-500 text-white rounded-lg shadow-md hover:shadow-violet-500/40 transition transform hover:scale-105"
+    >
+      View Certificate
+    </a>
+  </div>
+)}
             </div>
           ))}
         </div>

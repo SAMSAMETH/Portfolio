@@ -11,8 +11,7 @@ const Header = () => {
     "Education",
     "Skills",
     "Projects",
-    "Internship",
-    "Certificate",
+    "Experience",
     "Workshop Events",
     "Contact",
   ];
