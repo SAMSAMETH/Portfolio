@@ -65,7 +65,7 @@ const Contact = () => {
             {/* Resume Section */}
             <div className="mt-6 flex space-x-4">
               <a
-                href="/SamuelK_resume.pdf"
+                href="/SamuelK-resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center px-5 py-2 bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg shadow-md hover:opacity-90 transition font-semibold"
@@ -73,8 +73,8 @@ const Contact = () => {
                 <FaFilePdf className="mr-2" /> View Resume
               </a>
               <a
-                href="/SamuelK_resume.pdf"
-                download="SamuelK_resume.pdf"
+                href="/SamuelK-resume.pdf"
+                download="SamuelK-resume.pdf"
                 className="flex items-center px-5 py-2 border border-violet-500 rounded-lg text-violet-400 hover:bg-violet-500 hover:text-white transition font-semibold"
               >
                 <FaDownload className="mr-2" /> Download
